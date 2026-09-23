@@ -6,7 +6,7 @@ app.use(express.json());
 
 
 app.get('/name', (req, res) => {
-js    res.json({ message: "Hey I am Kunal" });
+    res.json({ message: "Hey I am Kunal" });
 });
 
 app.get('/contact', (req, res) => {
